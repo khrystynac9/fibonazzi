@@ -10,15 +10,13 @@ function fib(n) {
     }
     return "число Фібоначчі " + f;
 }
-var result = fib(n);
-document.write(result);
+document.write(fib(n));
 
 
 
 
 //варіант другий =)
 
-//var m = fib(n);
 
 function fib(n) {
     var x1 = 1,
